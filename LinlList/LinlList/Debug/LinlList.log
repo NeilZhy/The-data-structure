@@ -1,8 +1,10 @@
-﻿生成启动时间为 2016/12/13 19:46:53。
+﻿生成启动时间为 2016/12/13 20:05:00。
      1>项目“W:\Code\VS\C language\LinlList\LinlList\LinlList.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         Z:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt linklist.c
+         Z:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt linklist.c text.c
+         text.c
          linklist.c
+         正在生成代码...
        Link:
          Z:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"W:\Code\VS\C language\LinlList\Debug\LinlList.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"W:\Code\VS\C language\LinlList\Debug\LinlList.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"W:\Code\VS\C language\LinlList\Debug\LinlList.lib" /MACHINE:X86 Debug\linklist.obj
          Debug\text.obj
@@ -11,4 +13,4 @@
 
 生成成功。
 
-已用时间 00:00:00.37
+已用时间 00:00:01.49

@@ -51,7 +51,7 @@ void ListScan_Lk(LinkList *L,int insert)
 {
 	assert(L);
 	int i = 0;
-	LinkList p = *L;
+	LinkList p = *L;                //出入的是L的地址，解开之后是L所指向内容的地址
 	LinkList q = (LinkList)malloc(sizeof(LNode));
 	printf("请输入数据：\n");
 	scanf("%d",&(q->data));
@@ -61,5 +61,6 @@ void ListScan_Lk(LinkList *L,int insert)
 	}
 	q->next = p->next;
 	p->next = q;
-	(*L)->data++;
+	(*L)->data++;               //此处需要对链表的内容做修改，所以在写函数的时候，需要传址，在此处调用的时候，
+	                            //也需要解引用
 }
