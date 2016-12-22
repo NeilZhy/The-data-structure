@@ -149,7 +149,7 @@ void CreateGraph(vexnode* Graph, int vexnumber, int arcnumber)
 		p->adjvex = end - 1;             //弧的下一节点的名字，因为是数组，所以下标是从0开始，所以这边给减一
 		p->w = weight;
 		Graph[end - 1].idegree++;     //弧的下一节点的入度，开辟节点空间的时候，下标是从0开始的，所以这里end要减1，
-		p->nextedge = Graph[begin - 1].firstedge;
+		p->nextedge = Graph[begin - 1].firstedge;   //利用建立链表的方式将一个顶点连接的弧相互串联起来
 		Graph[begin - 1].firstedge = p;
 	}
 }
